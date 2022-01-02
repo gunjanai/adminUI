@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.table-content {
+  /* position: relative; */
+  width: 90%;
+  border-collapse: collapse;
+  margin: 24px;
+  font-size: 16px;
+  /* min-width: 800px; */
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.table-content thead tr {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.table-content th,
+.table-content td {
+  padding: 8px 12px;
+}
+
+.table-content tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-content tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table-content tr:last-of-type {
+  border-bottom: 2px solid teal;
+}
+
+.top-search-del-button {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 12px;
+  margin-left: 24px;
+}
+
+.button {
+  background-color: teal;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 5px;
+  color: white;
+}
+
+.form-button {
+  margin-right: 4px;
+  background-color: teal;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 5px;
+  color: white;
+}
+
+.search-bar {
+  width: 30%;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid teal;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input-box {
+  border-radius: 5px;
+  border: 2px solid teal;
+  /* padding: 4px; */
+}

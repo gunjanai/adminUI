@@ -1,0 +1,22 @@
+.page-item {
+  display: inline-block;
+}
+
+.general-button {
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: teal;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 5px;
+  color: white;
+  margin: 1px;
+}
+
+.page-item a .general-button:active {
+  background-color: teal;
+  color: white;
+}
